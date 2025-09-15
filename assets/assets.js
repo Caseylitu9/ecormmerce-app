@@ -66,7 +66,7 @@ export const productDummyData = [
         id: "prod_1",
         name: "Modern table lamp",
         description: "Modern table lamp with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty. Enhance your audio experience with this earbuds. Indulge yourself in a world of pure sound with 50 hours of uninterrupted playtime. Equipped with the cutting-edge Zen Mode Tech ENC and BoomX Tech, prepare to be enthralled by a symphony of crystal-clear melodies.",
-        mrp: 40,
+        mrp: 3000,
         price: 1500,
         images: [product_img1, product_img2, product_img3, product_img4],
         category: "Decoration",
@@ -124,8 +124,8 @@ export const productDummyData = [
     },
     {
         id: "prod_5",
-        name: "Smart watch black",
-        description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
+        name: "Smart speaker black",
+        description: "Smart speaker with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
         mrp: 3999,
         price: 2999,
         images: [product_img5],
@@ -295,8 +295,8 @@ export const orderDummyData = [
         isCouponUsed: true,
         coupon: dummyRatingsData[2],
         orderItems: [
-            { orderId: "cmemm75h5001jtat89016h1p3", productId: "cmemlydnx0017tat8h3rg92hz", quantity: 1, price: 89, product: productDummyData[0], },
-            { orderId: "cmemm75h5001jtat89016h1p3", productId: "cmemlxgnk0015tat84qm8si5v", quantity: 1, price: 149, product: productDummyData[1], }
+            { orderId: "cmemm75h5001jtat89016h1p3", productId: "cmemlydnx0017tat8h3rg92hz", quantity: 1, price: 1500, product: productDummyData[0], },
+            { orderId: "cmemm75h5001jtat89016h1p3", productId: "cmemlxgnk0015tat84qm8si5v", quantity: 1, price: 900, product: productDummyData[1], }
         ],
         address: addressDummyData,
         user: dummyUserData
@@ -315,8 +315,8 @@ export const orderDummyData = [
         isCouponUsed: true,
         coupon: couponDummyData[0],
         orderItems: [
-            { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemm1f3y001dtat8liccisar", quantity: 1, price: 229, product: productDummyData[2], },
-            { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemm0nh2001btat8glfvhry1", quantity: 1, price: 99, product: productDummyData[3], },
+            { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemm1f3y001dtat8liccisar", quantity: 1, price: 2900, product: productDummyData[2], },
+            { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemm0nh2001btat8glfvhry1", quantity: 1, price: 500, product: productDummyData[3], },
             { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemlz8640019tat8kz7emqca", quantity: 1, price: 199, product: productDummyData[4], }
         ],
         address: addressDummyData,
